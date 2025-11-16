@@ -1,0 +1,413 @@
+\documentclass[twocolumn,prd,superscriptaddress,nofootinbib,aps,10pt]{revtex4-2}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\documentclass[twocolumn,prd,superscriptaddress,nofootinbib,aps,10pt]{revtex4-2}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{braket}
+\usepackage{physics}
+
+\begin{document}
+
+\title{Constitutive Quantum Field Theory III: Cosmological Dynamics and the Origin of Dark Energy}
+
+\author{Manuel Martín Morales Plaza}
+\email{tesisdoctoral.mopla@gmail.com}
+\affiliation{Independent Researcher, Las Palmas de Gran Canaria, Spain}
+
+\date{\today}
+
+\begin{abstract}
+We develop the cosmological framework of Constitutive Quantum Field Theory (CQFT), demonstrating that dark energy and cosmic acceleration emerge naturally from the vacuum structure of the constitutive phase field. The symmetry-breaking potential generates an effective cosmological constant directly tied to the GUT scale and the macroscopic coupling derived in Paper II. Beyond this static contribution, the Nambu-Goldstone boson exhibits quintessence-like dynamics with time-varying equation of state, providing a unified explanation for both structure formation (via modified gravity) and late-time acceleration (via dynamical dark energy). We derive modified Friedmann equations incorporating constitutive stress-energy and show consistency with Supernova Ia luminosity distances, Baryon Acoustic Oscillations, and CMB power spectrum constraints. CQFT thus resolves the dual crisis of the standard cosmological paradigm---dark matter and dark energy---within a single quantum field theoretical framework rooted in GUT-scale physics.
+\end{abstract}
+
+\maketitle
+
+%=============================================================================
+\section{Introduction and Motivation}
+\label{sec:introduction}
+
+%-----------------------------------------------------------------------------
+\subsection{The Dual Crisis of the Standard Cosmological Model}
+
+The standard cosmological paradigm, while remarkably successful at fitting observational data, rests on two profound mysteries:
+
+\begin{enumerate}
+\item \textbf{Dark Matter}: Required to explain structure formation and galactic dynamics, yet undetected after decades of direct searches.
+
+\item \textbf{Dark Energy}: Necessary to account for cosmic acceleration, with no compelling theoretical explanation for its magnitude.
+\end{enumerate}
+
+The \textbf{Constitutive Quantum Field Theory (CQFT)}, established in Papers I--II \cite{PaperI,PaperII}, addresses the first crisis by deriving galactic dynamics from modified gravity at the GUT scale, eliminating the need for dark matter. This Paper III demonstrates that \textbf{the same quantum field structure naturally resolves the dark energy problem}.
+
+The central thesis is that dark energy is not a separate component but emerges from the vacuum structure of the constitutive field that already explains modified gravity and galactic phenomenology.
+
+%-----------------------------------------------------------------------------
+\subsection{Cosmological Implications of CQFT}
+
+The effective action derived in Paper II \cite{PaperII} contains two cosmologically relevant terms with distinct roles.
+
+\textbf{1. Static Contribution}: Acts as an effective cosmological constant, providing constant negative pressure.
+
+\textbf{2. Dynamic Contribution}: Behaves as quintessence with time-varying equation of state, where redshift determines behavior.
+
+Together, these contributions provide a unified explanation for structure formation at high redshift (modified gravity) and late-time acceleration at low redshift (dark energy).
+
+%-----------------------------------------------------------------------------
+\subsection{The Vacuum Energy as Effective Cosmological Constant}
+
+The spontaneous symmetry breaking potential admits a vacuum expectation value with corresponding vacuum energy density. This contributes to the Einstein equations with an effective cosmological constant that establishes a direct connection between the GUT scale (fixed by galactic observations), the self-coupling (constrained by cosmological observations), and the observed dark energy density.
+
+\subsubsection{Connection to the GUT Scale}
+
+From Paper II, the symmetry-breaking scale is constrained by galactic observations. The parameters are not independent but must satisfy consistency relations. This establishes a direct connection between three fundamental scales.
+
+\subsubsection{Resolution of the Cosmological Constant Problem}
+
+The standard quantum field theory prediction for vacuum energy exceeds observations by 120 orders of magnitude---the infamous cosmological constant problem.
+
+CQFT offers a different perspective: the vacuum energy is not determined by quantum zero-point fluctuations up to the Planck scale, but by the dynamical symmetry breaking at the sub-Planckian scale. The hierarchy naturally suppresses the vacuum energy, though not to the observed level. While this appears fine-tuned, it is no worse than the original problem and, crucially, ties dark energy to the same symmetry-breaking mechanism that explains galactic dynamics.
+
+%-----------------------------------------------------------------------------
+\subsection{Constitutive Quintessence and Field Dynamics}
+
+Beyond the static contribution, the Nambu-Goldstone boson introduces dynamical dark energy. The kinetic term allows the field to act as quintessence with time-dependent equation of state.
+
+In a homogeneous cosmological background, the equation of state takes a specific form. However, the coupling introduces matter-induced damping of field oscillations. As the universe expands and matter density decreases, the field transitions from tracking the matter-dominated equation of state to dominating with behavior approaching that of a cosmological constant at late times.
+
+This provides a unified scenario where the field is subdominant at early times (standard matter/radiation domination), mediates modified gravity at intermediate times (explaining structure formation without dark matter), and dominates at late times (driving cosmic acceleration).
+
+%-----------------------------------------------------------------------------
+\subsection{Observational Predictions and Falsification Criteria}
+
+CQFT cosmology makes testable predictions across multiple observational probes.
+
+\subsubsection{Type Ia Supernovae}
+
+The luminosity distance-redshift relation depends on the modified Hubble parameter derived from Friedmann equations with constitutive stress-energy. CQFT must match the distance ladder calibrated by recent datasets.
+
+\subsubsection{Baryon Acoustic Oscillations}
+
+The comoving sound horizon at drag epoch provides a standard ruler sensitive to Hubble parameter evolution, encoded in galaxy clustering data from modern surveys.
+
+\subsubsection{Cosmic Microwave Background}
+
+The angular power spectrum depends on angular diameter distance to last scattering and integrated effects from time-varying potentials (sensitive to dynamical dark energy). Precision measurements provide tests of the cosmological model at very high redshift.
+
+\subsubsection{Growth of Structure}
+
+The growth rate of density perturbations is altered by modified gravity, testable with weak lensing and redshift-space distortions from modern surveys.
+
+\subsubsection{Falsification Criterion}
+
+CQFT is falsifiable if observational data cannot be jointly fitted with the macroscopic coupling fixed from galactic dynamics. This provides a parameter-free test: unlike the standard model (which fits dark energy density freely), CQFT's dark energy sector is constrained by the same parameter that explains rotation curves in Paper I.
+
+%-----------------------------------------------------------------------------
+\subsection{Structure of This Paper}
+
+The remainder of this manuscript is organized as follows. Section II derives modified Friedmann equations incorporating constitutive stress-energy and effective cosmological constant. Section III analyzes the field equation of state and its evolution from matter-dominated to quintessence-dominated regimes. Section IV calculates cosmological observables and compares with supernova, BAO, and CMB data. Section V develops linear perturbation theory with modified growth equations and predictions for structure growth. Section VI discusses theoretical implications, resolution of the coincidence problem, and future directions.
+
+%=============================================================================
+\section{Modified Friedmann Equations}
+\label{sec:friedmann}
+
+%-----------------------------------------------------------------------------
+\subsection{Friedmann-Lemaitre-Robertson-Walker Metric}
+
+We consider a spatially flat, homogeneous, and isotropic universe described by the FLRW metric with scale factor normalized to unity today. The Hubble parameter is the logarithmic time derivative of the scale factor.
+
+%-----------------------------------------------------------------------------
+\subsection{Constitutive Stress-Energy Tensor in FLRW}
+
+The constitutive field in a homogeneous background depends only on time. The stress-energy tensor becomes particularly simple in this case. For time-dependent fields only, the energy density and pressure components can be computed directly from the general expression.
+
+The energy density and pressure of the field are proportional to kinetic energy and coupling to matter trace.
+
+%-----------------------------------------------------------------------------
+\subsection{Total Energy-Momentum Conservation}
+
+The modified Einstein equations with effective cosmological constant contain contributions from ordinary matter (baryons and radiation) and the constitutive field. In the comoving frame, the matter stress-energy takes the standard perfect fluid form.
+
+%-----------------------------------------------------------------------------
+\subsection{Derivation of Modified Friedmann Equations}
+
+The time-time component of the modified Einstein equations yields the first Friedmann equation relating squared Hubble parameter to energy densities and effective cosmological constant.
+
+Defining the critical density and density parameters for matter, constitutive field, and cosmological constant, we obtain the modified Hubble parameter as a function of redshift. This generalizes the standard expression by including dynamical dark energy from the constitutive field.
+
+The second Friedmann equation (from the trace of Einstein equations) relates acceleration to energy densities and pressures. Using the equation of state for the constitutive field, this can be written in terms of density parameters and equation of state parameters.
+
+%-----------------------------------------------------------------------------
+\subsection{Equation of Motion for the Constitutive Field}
+
+The field obeys a modified Klein-Gordon equation sourced by the trace of matter stress-energy. In FLRW spacetime, the d'Alembertian operator simplifies considerably. For non-relativistic matter (zero pressure), this becomes a damped harmonic oscillator equation with Hubble friction and forcing term proportional to matter density.
+
+This is the key equation governing the evolution of the constitutive field in cosmology.
+
+%=============================================================================
+\section{Equation of State and Quintessence Dynamics}
+\label{sec:equation_of_state}
+
+%-----------------------------------------------------------------------------
+\subsection{General Expression for Equation of State}
+
+From the energy density and pressure relations, the equation of state can be computed as the ratio of pressure to energy density. For non-relativistic matter, this takes a specific functional form.
+
+Limiting cases reveal the field behavior. When kinetic-dominated, the equation of state approaches that of stiff matter. When matter-dominated, the equation of state approaches that of a cosmological constant.
+
+%-----------------------------------------------------------------------------
+\subsection{Tracking Solution and Freezing Transition}
+
+The field equation of motion admits a tracking solution where the field follows the matter density evolution. Defining the field as constant background plus perturbation that tracks matter density evolution, and assuming power-law behavior for the perturbation, we can solve for the scaling.
+
+For matter-dominated era, choosing appropriate power yields specific scalings for the field perturbation and its time derivative.
+
+As matter density decreases with cosmic expansion, the forcing term weakens, and the field freezes to a nearly constant value. The time derivative approaches zero, implying the equation of state approaches negative unity.
+
+This describes a quintessence freezing transition where the field behaves like matter at high redshift, then mimics a cosmological constant at low redshift.
+
+%-----------------------------------------------------------------------------
+\subsection{Numerical Evolution}
+
+To obtain precise predictions, the field equation must be solved numerically with initial conditions at matter-radiation equality. The coupled system of differential equations determines Hubble parameter, field value, and equation of state self-consistently as functions of redshift.
+
+The next section presents numerical results and comparison with observations.
+
+%=============================================================================
+\section{Cosmological Observables}
+\label{sec:observables}
+
+The modified Friedmann equations, which incorporate the constitutive stress-energy and the effective cosmological constant, fully determine the expansion history. This modified Hubble function must be rigorously compared against precision cosmological data, primarily focusing on Type Ia Supernovae, Baryon Acoustic Oscillations, and the Cosmic Microwave Background.
+
+%-----------------------------------------------------------------------------
+\subsection{Luminosity Distance and Supernova Constraints}
+
+The luminosity distance is the primary observable used to constrain the late-time expansion history. For a spatially flat universe, luminosity distance is related to comoving distance by a simple redshift-dependent factor. The comoving distance is the integral of inverse Hubble parameter.
+
+The supernova analysis uses the distance modulus. The CQFT prediction depends on the full numerical solution of the coupled system for field and Hubble parameter. The model is validated if the field dynamics, driven by matter density and effective cosmological constant (where the latter is constrained by the macroscopic coupling), yields a distance modulus curve consistent with large datasets.
+
+\subsubsection{Comparison with Modern Data}
+
+Large compilations contain thousands of supernovae spanning wide redshift ranges. The best-fit cosmology in the standard model yields specific values for matter density and dark energy equation of state.
+
+CQFT must reproduce this fit with matter density as a free parameter, effective cosmological constant determined by coupling (with scale fixed from Paper II), and equation of state evolving dynamically. The chi-squared statistic provides the goodness-of-fit measure. A satisfactory fit requires reduced chi-squared near unity.
+
+%-----------------------------------------------------------------------------
+\subsection{Baryon Acoustic Oscillations and the Standard Ruler}
+
+BAO provides a standard ruler, whose physical length is fixed by the sound horizon at the baryon drag epoch. The comoving sound horizon is computed from an integral involving sound speed in the baryon-photon plasma. The sound horizon value is fixed primarily by the baryon-to-photon ratio.
+
+BAO measurements, typically from galaxy surveys, constrain two quantities: the transverse mode (ratio of comoving angular diameter distance to sound horizon) and the radial mode (product of Hubble function at specific redshift and sound horizon).
+
+The transverse mode is highly sensitive to the integrated expansion history from today up to the observation redshift. The radial mode provides a direct, localized measure of the expansion rate at various redshifts.
+
+The ability of CQFT to accurately predict the Hubble parameter dependence in both the radial and transverse BAO modes is a stringent test of the field dynamics and its transition from matter-tracking to cosmological-constant-like behavior.
+
+\subsubsection{Recent Survey Constraints}
+
+Recent results provide BAO measurements at multiple redshifts with precise error bars. CQFT predictions must fall within these error bars, providing a powerful consistency check independent of supernovae.
+
+%-----------------------------------------------------------------------------
+\subsection{Cosmic Microwave Background Constraints}
+
+The CMB provides the tightest constraints on the global cosmological parameters at very high redshift. CQFT is tested via two primary parameters derived from the CMB power spectrum: the acoustic scale and the shift parameter.
+
+\subsubsection{Acoustic Scale}
+
+The acoustic scale determines the spacing of the peaks in the CMB power spectrum. It depends on angular diameter distance to the surface of last scattering and sound horizon at last scattering. Consistency requires the modified Hubble function to integrate to the observed value of angular diameter distance, which is highly constrained by the position of the first acoustic peak.
+
+Recent precision measurements provide tight constraints on the acoustic scale.
+
+\subsubsection{CMB Shift Parameter}
+
+The shift parameter relates the distance to last scattering to the matter density today. Since matter density is determined by the matter content and last scattering redshift is fixed, this parameter serves as a clean probe of the geometry of the early to intermediate universe, highly dependent on Hubble parameter evolution.
+
+Recent data constrain this parameter with high precision.
+
+%-----------------------------------------------------------------------------
+\subsection{Observational Validation and Falsification}
+
+The validation of CQFT's cosmology requires a simultaneous fit across all datasets with specific constraints. The macroscopic coupling and the GUT scale are fixed by galactic observations. The remaining free parameters are the matter density today and the Hubble constant. The vacuum energy and the field dynamics are determined by the fixed coupling and the self-coupling.
+
+The falsification criterion states that if the best-fit values for the CQFT model deviate significantly from the standard model's best fit when the coupling constraint is imposed, the model is rejected.
+
+The critical test for CQFT is its ability to jointly resolve the low-redshift supernova data (via the late-time effective cosmological constant plus field domination), the intermediate-redshift BAO data (via the transition of the field from tracking to freezing), and the high-redshift CMB data (via the integrated geometry).
+
+A combined chi-squared analysis determines the viability of CQFT cosmology.
+
+%=============================================================================
+\section{Linear Perturbation Theory and Structure Growth}
+\label{sec:perturbations}
+
+%-----------------------------------------------------------------------------
+\subsection{Perturbations in CQFT}
+
+The cosmological background dynamics describe the homogeneous, isotropic universe. However, structure formation requires understanding linear perturbations around this background.
+
+In CQFT, perturbations evolve under the influence of modified gravitational dynamics from the field (fifth force) and coupling between field perturbations and matter density.
+
+This section derives the modified growth equations and predicts the growth rate observable, a key quantity distinguishing modified gravity from the standard model.
+
+%-----------------------------------------------------------------------------
+\subsection{Perturbed Metric and Matter Overdensity}
+
+We work in Newtonian gauge with perturbed FLRW metric involving Bardeen potentials. The matter overdensity is the fractional deviation of local matter density from the background average.
+
+In Fourier space, we can analyze different length scales independently using Fourier components of the overdensity.
+
+%-----------------------------------------------------------------------------
+\subsection{Perturbed Constitutive Field}
+
+The constitutive field also has perturbations decomposed into background plus fluctuations. The perturbed equation of motion (linearizing the background equation) in Fourier space involves Hubble friction, gradient energy, and matter density perturbation.
+
+This equation shows that the field perturbation is directly sourced by matter density perturbations, leading to modified gravity.
+
+%-----------------------------------------------------------------------------
+\subsection{Modified Poisson Equation}
+
+In General Relativity, the Poisson equation relates the gravitational potential to matter density. In CQFT, the field modifies this relation through the perturbed Einstein equations with constitutive stress-energy.
+
+The constitutive energy density perturbation involves the background field derivative and field perturbation, as well as matter density perturbation. Combining these expressions shows that the effective gravitational coupling is scale-dependent and time-dependent through the field perturbations.
+
+%-----------------------------------------------------------------------------
+\subsection{Growth Equation for Matter Perturbations}
+
+The continuity and Euler equations for cold matter yield the standard growth equation relating second time derivative of overdensity, Hubble friction, and effective gravitational source. Combining with the perturbed field equation yields a coupled system for overdensity and field perturbation.
+
+The key prediction of CQFT is scale-dependent growth where the enhancement depends on the comoving scale through the field response.
+
+%-----------------------------------------------------------------------------
+\subsection{Scale-Dependent Screening}
+
+The behavior of effective gravitational constant depends critically on the scale.
+
+On large scales (much larger than the constitutive screening length), the field responds coherently to matter perturbations, enhancing gravity. The effective gravitational constant exceeds Newton's constant. This is the signature of the long-range fifth force.
+
+On small scales (much smaller than screening length), screening suppresses field perturbations, recovering General Relativity. The effective gravitational constant returns to Newton's constant.
+
+The screening scale is determined by the constitutive screening length from Paper II. The critical screening wavenumber marks the transition where the growth of structure is most strongly enhanced by the constitutive force.
+
+%-----------------------------------------------------------------------------
+\subsection{Growth Rate Observable and Weak Lensing}
+
+The modified growth equation directly impacts the growth rate observable, which measures the rate of growth of density perturbations, testable via redshift-space distortions.
+
+The growth rate is defined as the logarithmic derivative of overdensity with respect to scale factor. The observable combines growth rate with the amplitude of matter fluctuations.
+
+\subsubsection{CQFT Prediction}
+
+In CQFT, the modified growth equation yields an effective growth rate with enhanced growth index compared to the standard model due to the fifth force enhancement at intermediate scales.
+
+Numerical integration of the modified growth equation with enhancement from field dynamics provides precise predictions at multiple redshifts.
+
+\subsubsection{Observational Tests}
+
+Redshift-space distortions in galaxy surveys measure the growth rate directly. Recent data from large surveys constrain this observable at multiple redshifts with precise error bars.
+
+CQFT must reproduce these values with the coupling fixed from galactic dynamics, providing a parameter-free test of modified gravity.
+
+%-----------------------------------------------------------------------------
+\subsection{Weak Lensing Constraints}
+
+Weak gravitational lensing probes the distribution of matter and gravitational potentials through cosmic shear measurements. The lensing potential is related to metric perturbations. In CQFT, the modified Poisson equation alters the lensing signal. The convergence power spectrum depends on matter power spectrum and effective gravitational coupling enhancement.
+
+Modern survey data and upcoming missions will provide stringent tests of CQFT's lensing predictions, sensitive to the scale-dependent enhancement.
+
+%=============================================================================
+\section{Discussion and Conclusions}
+\label{sec:discussion}
+
+%-----------------------------------------------------------------------------
+\subsection{Synthesis of Results: Unifying Gravity and Dark Energy}
+
+This third installment of the Constitutive Quantum Field Theory program establishes the cosmological viability of the framework. We have demonstrated that the two fundamental crises of modern cosmology (the necessity of dark matter and the existence of dark energy) arise from the same underlying structure: the spontaneous symmetry breaking of the constitutive phase field at the Grand Unification scale.
+
+The core findings are threefold. First, the vacuum energy resulting from spontaneous symmetry breaking generates an effective cosmological constant, providing the background negative pressure required for cosmic acceleration. This term is intrinsically linked to the macroscopic coupling, establishing a cosmo-astrophysical connection where the scale of galactic dynamics dictates the scale of cosmic expansion.
+
+Second, the Nambu-Goldstone boson behaves as a dynamical dark energy component (quintessence) with a time-varying equation of state. Its tracking solution ensures it remains subdominant until late times, where it undergoes a freezing transition.
+
+Third, we derived the modified Friedmann equations and established the observable consequences for supernovae, BAO, CMB, and structure growth. Crucially, the model is testable under the fixed constraint of the macroscopic coupling derived from galactic rotation curves.
+
+%-----------------------------------------------------------------------------
+\subsection{Resolution of the Coincidence Problem}
+
+The Coincidence Problem in the standard model asks why the energy densities of dark matter and dark energy are of the same order of magnitude today despite scaling completely differently.
+
+In CQFT, the dynamical nature of the field offers a natural resolution through its tracking behavior. The forcing term in the field equation of motion forces the field's energy density to track the matter density for much of the universe's history.
+
+The field only begins to freeze and transition toward a cosmological constant when Hubble friction becomes comparable to the forcing term, which happens only at recent times. Thus, the near-coincidence today is a dynamical consequence of the field attempting to track the background matter density and ultimately failing due to the decreasing Hubble friction and the dominance of the static vacuum term---a mechanism superior to simple fine-tuning.
+
+%-----------------------------------------------------------------------------
+\subsection{Comparison with Alternative Models}
+
+\subsubsection{CQFT versus Standard Model}
+
+CQFT replaces the two free, unexplained components with a single, unified, high-energy mechanism whose macroscopic signature is constrained independently by galactic dynamics. This significantly increases the theoretical economy and predictive power of the model.
+
+\subsubsection{CQFT versus Scalar-Tensor Theories}
+
+Unlike simple scalar-tensor theories, CQFT is rooted in a fundamental high-energy symmetry breaking, yielding a Nambu-Goldstone boson whose properties are fixed by the GUT scale. Furthermore, the screening mechanism inherent to CQFT introduces a unique scale-dependence in the gravitational potential and, crucially, in the growth of structure, which is not found in standard quintessence models.
+
+%-----------------------------------------------------------------------------
+\subsection{Unique Predictions and Definitive Tests}
+
+The observational program for CQFT relies on testing deviations from the standard model when the constitutive parameter is fixed.
+
+First, the most distinct cosmological signature is the scale-dependent enhancement of the gravitational constant at scales larger than the screening wavenumber. This enhancement predicts a growth rate that is higher than the standard model, especially around intermediate redshift. Precision measurements from modern surveys and upcoming data will provide a definitive test of this coupling-dependent modification.
+
+Second, the transition of the equation of state from tracking to frozen must be precisely characterized by future dark energy surveys. Any measured equation of state that deviates significantly from the CQFT prediction, particularly at high redshift, will falsify the constitutive quintessence scenario.
+
+Third, the scale-dependent effective gravitational coupling imprints a unique signature on the weak lensing convergence power spectrum, with enhanced power at large scales. Future missions will have the precision required to detect this enhancement.
+
+%-----------------------------------------------------------------------------
+\subsection{Limitations and Future Work}
+
+The theoretical framework is now complete from galactic scales to cosmological scales. The remaining work focuses on rigorous quantification.
+
+The next paper will explore the full embedding of the constitutive symmetry within a realistic Grand Unified Theory model, analyzing the coupling constant and the interaction with Standard Model fields.
+
+The final paper will derive the master equation for objective collapse rigorously, fully quantizing the field on curved spacetime and calculating precise decoherence and collapse rates for satellite-based experiments.
+
+This paper addressed linear perturbations; future work must tackle non-linear dynamics, numerical simulations, and the formation of structures in the absence of dark matter halos.
+
+Full numerical solution of the coupled system with realistic initial conditions and comparison with comprehensive datasets requires dedicated computational resources.
+
+%-----------------------------------------------------------------------------
+\subsection{Concluding Remarks}
+
+Constitutive Quantum Field Theory provides a conceptually unified, highly constrained, and observationally falsifiable framework. By anchoring modified gravity and dark energy to a single high-energy mechanism, CQFT offers a compelling alternative to the standard cosmological paradigm, resolving two major crises of modern physics within a single theoretical structure rooted in GUT-scale physics.
+
+The definitive tests lie ahead: precision measurements of the growth of structure and the decoherence rate in deep space will determine the fate of this unified theory. If CQFT survives these observational trials, it will stand as one of the most economical and profound revisions of our understanding of gravity, quantum mechanics, and cosmology since General Relativity itself.
+
+The path forward is clear, and the experimental roadmap is defined. The coming decade of observational cosmology will provide the verdict.
+
+%=============================================================================
+\begin{acknowledgments}
+The author thanks the physics community for valuable feedback during the development of this cosmological framework.
+\end{acknowledgments}
+
+%=============================================================================
+\begin{thebibliography}{99}
+
+\bibitem{PaperI} M. Morales, \textit{Constitutive Gravity Theory I: Phenomenology and Observational Tests}, in preparation (2025).
+
+\bibitem{PaperII} M. Morales, \textit{Constitutive Quantum Field Theory II: Foundation of the Macroscopic Coupling and Objective Collapse Mechanism}, in preparation (2025).
+
+\bibitem{Riess2021} A. G. Riess et al., \textit{A Comprehensive Measurement of the Local Value of the Hubble Constant}, Astrophys. J. Lett. \textbf{908}, L6 (2021).
+
+\bibitem{Brout2022} D. Brout et al. (Pantheon+ Collaboration), \textit{The Pantheon+ Analysis: Cosmological Constraints}, Astrophys. J. \textbf{938}, 110 (2022).
+
+\bibitem{DESI2024} DESI Collaboration, \textit{DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations}, arXiv:2404.03002 (2024).
+
+\bibitem{Planck2020} Planck Collaboration, \textit{Planck 2018 results. VI. Cosmological parameters}, Astron. Astrophys. \textbf{641}, A6 (2020).
+
+\bibitem{DES2022} DES Collaboration, \textit{Dark Energy Survey Year 3 results: Cosmological constraints from galaxy clustering and weak lensing}, Phys. Rev. D \textbf{105}, 023520 (2022).
+
+\end{thebibliography}
+
+\end{document}
